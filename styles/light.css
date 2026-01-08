@@ -12,7 +12,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-auto {
+  :root:not(.theme-dark):not(.theme-light) {
     --background-image: url("../images/cover-image-light.png");
     --accent-color: #ff8dcb;
     --accent-color-opacity: #32312d66;
